@@ -1,0 +1,14 @@
+ .display {
+      background: #878585;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .jumbotron {
+      text-align: center;
+      /* padding: 20px; */
+      font-style: italic;
+      background-image: image(url('images.jpeg'));
+      background-size: cover;
+    }
