@@ -1,14 +1,69 @@
- .display {
-      background: #878585;
-      color: white;
-      padding: 60px 0;
-      text-align: center;
-    }
+.display {
+  background: #878585;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
 
-    .jumbotron {
-      text-align: center;
-      /* padding: 20px; */
-      font-style: italic;
-      background-image: image(url('images.jpeg'));
-      background-size: cover;
-    }
+.jumbotron {
+  text-align: center;
+  /* padding: 20px; */
+  font-style: italic;
+  background-image: image(url('images.jpeg'));
+  background-size: cover;
+}
+
+.diamond0 {
+  width: 100px;
+  height: 100px;
+  background-color: #cc70d6; 
+  transform: rotate(45deg);
+  margin: 20px auto;
+  position: relative;
+  border-radius: 15px;
+}
+.diamond1 {
+  width: 100px;
+  height: 100px;
+  background-color: #f9b329; 
+  transform: rotate(45deg);
+  margin: 20px auto;
+  position: relative;
+  border-radius: 15px;
+}
+.diamond2 {
+  width: 100px;
+  height: 100px;
+  background-color: #3b9a89;
+  transform: rotate(45deg);
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.diamond-content0 {
+  position:absolute;
+  top: 34%; 
+  left: -5%;
+  transform: rotate(-45deg);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.diamond-content1 {
+  position: absolute;
+  top: 35%; 
+  left: 35%;
+  transform: rotate(-45deg);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.diamond-content2 {
+  position: absolute;
+  top: 34%; 
+  left: 28%;
+  transform: rotate(-45deg);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
